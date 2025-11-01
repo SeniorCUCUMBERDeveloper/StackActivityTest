@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg_a">
+
+    <EditText
+        android:id="@+id/etColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter color (e.g. #123ABC)"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Color"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnOpenB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open ActivityB"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
